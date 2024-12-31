@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-3.5.dtd">
+<!-- Project file for project kdhcpd -->
+<!-- Saved: 2005-03-27, 20:17:05 -->
+<!-- Copyright (C) 2005 Julien Morot, julien@momonux.org -->
+<Project version="3.5">
+  <Description>A tool to manage a DHCP Server</Description>
+  <Version>0.0.1</Version>
+  <Author>Julien Morot</Author>
+  <Email>julien@momonux.org</Email>
+  <Sources>
+    <Source>
+      <Name>kdhcpd.py</Name>
+    </Source>
+    <Source>
+      <Name>mainwindow.py</Name>
+    </Source>
+    <Source>
+      <Name>mainwindowdesign.py</Name>
+    </Source>
+    <Source>
+      <Name>options.py</Name>
+    </Source>
+    <Source>
+      <Name>group.py</Name>
+    </Source>
+    <Source>
+      <Name>key.py</Name>
+    </Source>
+    <Source>
+      <Name>host.py</Name>
+    </Source>
+    <Source>
+      <Name>pool.py</Name>
+    </Source>
+    <Source>
+      <Name>dhcpbackend.py</Name>
+    </Source>
+    <Source>
+      <Name>globalconfig.py</Name>
+    </Source>
+    <Source>
+      <Name>scope.py</Name>
+    </Source>
+  </Sources>
+  <Forms>
+    <Form>
+      <Name>mainwindowdesign.ui</Name>
+    </Form>
+    <Form>
+      <Name>newscopedesign.ui</Name>
+    </Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>
+    <Name>kdhcpd.py</Name>
+  </MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+</Project>
